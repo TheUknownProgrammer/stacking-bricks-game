@@ -1,0 +1,28 @@
+body {
+  overflow: hidden;
+}
+#game_container {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+}
+#canvas {
+  border: 2.5px solid black;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    rgb(191, 255, 0),
+    orange,
+    rgb(191, 255, 0)
+  );
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+}
